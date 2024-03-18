@@ -11,8 +11,8 @@
     <title>About me</title>
 </head>
 
-<body class="bg-zinc-900 lg:bg-gradient-to-r from-zinc-950 to-zinc-900 lg:bg-opacity-25">
-    <div class="lg:text-center">
+<body class="bg-zinc-900 lg:bg-gradient-to-r from-zinc-950 to-zinc-900 lg:bg-opacity-25 scroll-smooth">
+    <div class="about-heading lg:text-center">
         <div class="text-white font-extrabold text-3xl uppercase pl-4 py-14 md:text-5xl relative">About <span
                 class="text-yellow-500">Me</span></div>
         <div
@@ -23,19 +23,19 @@
     <div>
         <div class="lg:text-center">
             <h2
-                class="uppercase text-white font-bold pl-4 p-6 text-xl lg:text-2xl lg:mb-8 xl:text-yellow-600">
+                class="about-info uppercase text-white font-bold pl-4 p-6 text-xl lg:text-2xl lg:mb-8">
                 Personal Infos</h2>
         </div>
         <div class="lg:flex lg:justify-evenly lg:min-h-[350px] lg:min-w-[400px]">
             <!-- img  -->
             <div class="max-w-xm mx-auto my-6 lg:ml-4 xl:ml-8">
-                <img class="w-60 h-60 sm:w-64 sm:h-64 sm:mb-8 object-cover object-center mx-auto border-4 rounded-full border-zinc-500 lg:w-[400px] lg:min-h-[400px] lg:rounded-lg md:w-72 md:h-72 xl:w-[450px] xl:h-[450px] "
+                <img class="about-img w-60 h-60 sm:w-64 sm:h-64 sm:mb-8 object-cover object-center mx-auto border-4 rounded-full border-zinc-500 lg:w-[400px] lg:min-h-[400px] lg:rounded-lg md:w-72 md:h-72 xl:w-[450px] xl:h-[450px] "
                     src="./media/IMG_20210306_230409-02.jpeg" alt="">
             </div>
             <div class="w-full">
                 <!-- Details -->
                 <div
-                    class="text-white font-semibold text-md flex flex-col max-w-sm mx-auto sm:p-4 sm:text-lg md:text-xl md:max-w-md md:p-2">
+                    class="about-detail text-white font-semibold p-4 text-md flex flex-col max-w-sm mx-auto sm:text-lg md:text-xl md:max-w-md md:p-2">
                     <div class="flex w-full mb-4">
                         <div class="w-[50%]"><span>First Name:</span><br>
                             <span class="font-normal">Deb</span>
@@ -80,7 +80,7 @@
                 </div>
                 <!-- download CV -->
                 <div
-                    class="flex border-2 border-yellow-500 rounded-full mx-auto max-w-64 p-4 text-white mt-4 hover:bg-yellow-600 hover:border-zinc-900 flex-wrap items-center justify-center">
+                    class="about-btn flex border-2 border-yellow-500 rounded-full mx-auto max-w-64 p-4 text-white mt-4 hover:bg-yellow-600 hover:border-zinc-900 flex-wrap items-center justify-center">
                     <a href="https://drive.google.com/file/d/1Jtp1VKVBbVDM8XFjlVteDGfcuJIJUqBv/view?usp=sharing">
                         <div class="uppercase font-bold ml-2 inline-flex">Download cv</div>
                         <button class="ml-2"><i class="fa-solid fa-download"></i></button>
@@ -92,7 +92,7 @@
         </div>
 
         <!-- No of skills -->
-        <div class="px-2 mt-4 ">
+        <div class="about-skill px-2 mt-4 ">
             <div class="grid grid-cols-2 text-white lg:grid-cols-4">
                 <div class="pl-3 py-4 m-3 border-2 border-zinc-800">
                     <h2 class="font-extrabold text-4xl text-yellow-500 mb-2">15+</h2><span
@@ -113,14 +113,14 @@
             </div>
         </div>
         <!-- dash -->
-        <div class="w-2/4 h-[1px] border-[0.5px] border-zinc-800 mx-auto my-8"></div>
+        <div class="about-dash w-2/4 h-[1px] border-[0.5px] border-zinc-800 mx-auto my-8"></div>
         <!-- skills -->
         <div>
             <div>
-                <h2 class="text-white font-bold text-xl uppercase pl-4 lg:text-2xl">My Skills</h2>
+                <h2 class="skill-h2 text-white font-bold text-xl uppercase pl-4 lg:text-2xl">My Skills</h2>
             </div>
 
-            <div class="grid grid-cols-2 mt-6 gap-4 px-4">
+            <div class="grid grid-cols-2 mt-6 gap-4 px-4 all-skills">
                 <!-- Java -->
                 <div class="mb-6 mx-4 uppercase">
                     <div class="bg-zinc-700 w-full h-2 rounded-lg mb-4">
@@ -188,7 +188,7 @@
 
             <div class="lg:flex px-4 sm:mx-8 md:mx-16 lg:justify-around">
                 <!-- heritage -->
-                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4">
+                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4 schools">
                     <div class="relative ml-2 text-xl lg:flex ">
                         <i class="fa-solid fa-school" style="color: #FFD43B;"></i>
                         <div class="w-[1px] h-[87px] bg-zinc-700 ml-[12px] lg:h-[1px] lg:mt-[10px] lg:w-[200px]"></div>
@@ -203,7 +203,7 @@
                     </div>
                 </div>
                 <!-- cts -->
-                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4">
+                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4 schools">
                     <div class="relative ml-2 text-xl lg:flex">
                         <i class="fa-solid fa-school" style="color: #FFD43B;"></i>
                         <div class="w-[1px] h-[87px] bg-zinc-700 ml-[12px] lg:h-[1px] lg:mt-[10px] lg:w-[200px]"></div>
@@ -217,7 +217,7 @@
                     </div>
                 </div>
                 <!-- hs -->
-                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4">
+                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4 schools">
                     <div class="relative ml-2 text-xl lg:flex">
                         <i class="fa-solid fa-school" style="color: #FFD43B;"></i>
                         <div class="w-[1px] h-[87px] bg-zinc-700 ml-[12px] lg:h-[1px] lg:mt-[10px] lg:w-[200px]"></div>
@@ -231,7 +231,7 @@
                     </div>
                 </div>
                 <!-- secondary -->
-                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4 lg:min-w-32">
+                <div class="relative flex gap-8 mx-6 mb-6 lg:flex-col lg:w-1/4 lg:min-w-32 schools">
                     <div class="relative ml-2 text-xl lg:flex">
                         <i class="fa-solid fa-school" style="color: #FFD43B;"></i>
                         <div class="w-[1px] h-[87px] bg-zinc-700 ml-[12px] lg:h-[1px] lg:mt-[10px] lg:hide"></div>
@@ -263,6 +263,9 @@
         </div>
     </div>
     <!-- end menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="about-me.js"></script>
 </body>
 
 </html>

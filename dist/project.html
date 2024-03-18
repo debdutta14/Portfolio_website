@@ -14,88 +14,84 @@
 </head>
 
 <body class="bg-zinc-900 h-screen lg:bg-gradient-to-r from-zinc-950 to-zinc-900 lg:bg-opacity-25">
-    <div class="lg:text-center pb-20">
-        <div class="text-white font-extrabold text-3xl uppercase pl-4 py-14 md:text-5xl relative">My <span
-                class="text-yellow-500">Projects</span></div>
-        <div
-            class="text-white font-extrabold text-3xl absolute uppercase pl-4 py-14 left-[0.5%] top-[0.5%] opacity-25 md:text-5xl sm:left-[1.5px] md:right-[0.5%]">
-            My <span class="text-yellow-500">Projects</span>
+    <div class="pb-20">
+        <div class="lg:text-center project-h1">
+            <div class="text-white font-extrabold text-3xl uppercase pl-4 py-14 md:text-5xl relative">My <span
+                    class="text-yellow-500">Projects</span></div>
+            <div
+                class="text-white font-extrabold text-3xl absolute uppercase pl-4 py-14 left-[0.5%] top-[0.5%] opacity-25 md:text-5xl sm:left-[1.5px] md:right-[0.5%]">
+                My <span class="text-yellow-500">Projects</span>
+            </div>
         </div>
+
         <div>
             <ul class="flex justify-around uppercase text-white font-semibold cursor-pointer categories">
-                <li class="hover:text-yellow-500 sm:text-lg lg:text-xl">All</li>
-                <li class="hover:text-yellow-500 sm:text-lg lg:text-xl">Web</li>
-                <li class="hover:text-yellow-500 sm:text-lg lg:text-xl">Java</li>
+                <li class="hover:text-yellow-500 sm:text-lg lg:text-xl ul-li">All</li>
+                <li class="hover:text-yellow-500 sm:text-lg lg:text-xl ul-li">Web</li>
+                <li class="hover:text-yellow-500 sm:text-lg lg:text-xl ul-li">Java</li>
 
             </ul>
         </div>
-        <div class="mx-4 cursor-pointer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="mx-4 cursor-pointer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 scroll-smooth ">
+
             <!-- online voting -->
             <div
-                class="project web w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden hover:bg-yellow-500 hover:flex items-center justify-center text-center sm:h-72 md:h-56 relative lg:h-64">
-                <span class="absolute text-white font-semibold text-xl">Online Voting System <br> using <br>
-                    Blockchain</span>
-                <img class="w-[100%] h-[100%] object-cover object-bottom relative hover:hidden"
+                class="project web w-full h-56 rounded-xl mt-8 overflow-hidden inform my-project">
+                <!-- <span class="absolute text-white font-semibold text-xl">Online Voting System <br> using <br>
+                    Blockchain</span> -->
+                <img class="w-[100%] h-[100%] object-cover object-bottom relative"
                     src="./media/vote-bg.jpg" alt="online voting system using blockchain technology">
             </div>
             <!-- photo search engine website -->
-            <a href="https://github.com/debdutta14/Photo-Search-Engine" class="project web">
+            <a href="https://github.com/debdutta14/Photo-Search-Engine" class="project web my-project">
                 <div
-                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden hover:bg-yellow-500 hover:flex items-center justify-center text-center relative sm:h-72 md:h-56 lg:h-64">
-                    <span class=" absolute text-white font-semibold text-xl">Photo Search Engine<br>Website</span>
+                    class="w-full h-56 rounded-xl mt-8 overflow-hidden">
+                    <!-- <span class=" absolute text-white font-semibold text-xl">Photo Search Engine<br>Website</span> -->
 
-                    <img class="w-[100%] h-[100%] object-cover object-center relative hover:hidden"
+                    <img class="w-[100%] h-[100%] object-cover object-center relative "
                         src="./media/Premium Photo _ Seo search engine optimization concept diagram with icon.jpg"
                         alt="Photo search engine website">
                 </div>
             </a>
             <!-- atm interface -->
-            <a href="https://github.com/debdutta14/ATM-interface" class="project java">
+            <a href="https://github.com/debdutta14/ATM-interface" class="project java my-project">
                 <div
-                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden hover:bg-yellow-500 hover:flex items-center justify-center text-center sm:h-72 md:h-56 relative lg:h-64">
-                    <span class=" absolute text-white font-semibold text-xl">ATM <br> Interface</span>
-                    <img class="w-[100%] h-[100%] object-cover object-center relative hover:hidden"
+                    class="w-full h-56 rounded-xl mt-8 overflow-hidden">
+                    <!-- <span class=" absolute text-white font-semibold text-xl">ATM <br> Interface</span> -->
+                    <img class="w-[100%] h-[100%] object-cover object-center relative"
                         src="./media/ATM Kiosk screen design.jpg" alt="ATM interface">
                 </div>
             </a>
-            <!-- number guessing game -->
-            <a href="https://github.com/debdutta14/Number-Guessing-Game" class="project java">
-                <div
-                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden hover:bg-yellow-500 hover:flex items-center justify-center text-center sm:h-72 md:h-56 relative lg:h-64">
-                    <span class=" absolute text-white font-semibold text-xl">Number Guessing<br>Game</span>
-                    <img class="w-[100%] h-[100%] object-cover object-center relative hover:hidden"
-                        src="./media/Guess My Number.jpg" alt="Number guessing game">
-                </div>
-            </a>
+
             <!-- to-do -->
-            <a href="https://github.com/debdutta14/TO-DO-LIst" class="project web">
+            <a href="https://github.com/debdutta14/TO-DO-LIst" class="project web my-project">
                 <div
-                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden  hover:bg-yellow-500 hover:flex items-center justify-center text-center relative sm:h-72 md:h-56 lg:h-64">
+                    class="w-full h-56 rounded-xl mt-8 overflow-hidden">
                     <span class=" absolute text-white font-semibold text-xl">To-Do List</span>
-                    <img class="w-[100%] h-[100%] object-cover object-center hover:hidden relative"
+                    <img class="w-[100%] h-[100%] object-cover object-center relative"
                         src="./media/Today in Brit Lit news, 17th Jan 2017.jpg" alt="To-do list website">
                 </div>
             </a>
             <!-- tic-tac-toe -->
-            <a href="https://github.com/debdutta14/Tic-Tac-game" class="project java">
+            <a href="https://github.com/debdutta14/Tic-Tac-game" class="project java my-project">
                 <div
-                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden  hover:bg-yellow-500 hover:flex items-center justify-center text-center relative sm:h-72 md:h-56 lg:h-64">
-                    <span class=" absolute text-white font-semibold text-xl">Tic Tac Toe</span>
-                    <img class="w-[100%] h-[100%] object-cover object-center hover:hidden relative"
+                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden">
+                    <!-- <span class=" absolute text-white font-semibold text-xl">Tic Tac Toe</span> -->
+                    <img class="w-[100%] h-[100%] object-cover object-center relative"
                         src="./media/tic-tac-toe.jpg" alt="To-do list website">
                 </div>
             </a>
-            <!-- scientific calculator -->
-            <a href="https://github.com/debdutta14/Scientific_calculator" class="project web">
+            <!-- number guessing game -->
+            <a href="https://github.com/debdutta14/Number-Guessing-Game" class="project java my-project">
                 <div
-                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden  hover:bg-yellow-500 hover:flex items-center justify-center text-center relative sm:h-72 md:h-56 lg:h-64">
-                    <span class=" absolute text-white font-semibold text-xl">Scientific Calculator</span>
-                    <img class="w-[100%] h-[100%] object-cover object-center hover:hidden relative"
-                        src="./media/calculator.jpg" alt="Scientific Calculator">
+                    class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden">
+                    <!-- <span class=" absolute text-white font-semibold text-xl">Number Guessing<br>Game</span> -->
+                    <img class="w-[100%] h-[100%] object-cover object-center relative"
+                        src="./media/Guess My Number.jpg" alt="Number guessing game">
                 </div>
             </a>
-            <!-- snake game
-            <a href="https://github.com/debdutta14/Scientific_calculator" class="project java">
+            <!-- snake game -->
+            <!-- <a href="https://github.com/debdutta14/Scientific_calculator" class="project java">
                 <div
                     class="w-full h-56 bg-slate-600 rounded-xl mt-8 overflow-hidden  hover:bg-yellow-500 hover:flex items-center justify-center text-center relative sm:h-72 md:h-56 lg:h-64">
                     <span class=" absolute text-white font-semibold text-xl">Snake Game</span>
@@ -118,24 +114,15 @@
         </div>
     </div>
     <!-- end menu -->
-
-    <script>
-        $(document).ready(function () {
-            // Initially, show all projects
-            $('.project').show();
-
-            // When a category is clicked
-            $('ul.categories li').click(function () {
-                var category = $(this).text().toLowerCase().trim();
-                // Show projects related to the clicked category and hide others
-                if (category === 'all') {
-                    $('.project').show();
-                } else {
-                    $('.project').hide().filter('.' + category).show();
-                }
-            });
-        });
-    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="project.js"></script>
 
 </body>
 
